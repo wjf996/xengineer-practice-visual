@@ -22,4 +22,34 @@
           <h2>待分析内容</h2>
           <span>PR 描述 / 代码片段</span>
         </div>
-        <textarea placeholder
+        <textarea id="reviewInput" placeholder="请粘贴 PR 描述、变更说明或代码片段..."></textarea>
+        <button id="reviewButton" type="button">开始分析</button>
+      </div>
+
+      <div class="panel result-panel">
+        <div class="panel-header">
+          <h2>分析结果</h2>
+          <span>Review 建议</span>
+        </div>
+
+        <div class="result-block">
+          <h3>风险提示</h3>
+          <p id="riskResult">等待分析内容输入后生成。</p>
+        </div>
+
+        <div class="result-block">
+          <h3>修改建议</h3>
+          <p id="suggestionResult">等待分析内容输入后生成。</p>
+        </div>
+
+        <div class="result-block">
+          <h3>测试建议</h3>
+          <p id="testResult">等待分析内容输入后生成。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
