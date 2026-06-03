@@ -1,12 +1,78 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f5f7fb;
-  color: #1f2937;
+* {
+  box-sizing: border-box;
 }
 
-main {
-  max-width: 880px;
-  margin: 80px auto;
-  padding: 32px;
+body {
+  margin: 0;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  background: #f4f7fb;
+  color: #172033;
 }
+
+.app {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.hero {
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.subtitle {
+  max-width: 640px;
+  color: #5f6f89;
+  line-height: 1.7;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.panel {
+  min-height: 520px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #dbe5f5;
+  border-radius: 8px;
+  box-shadow: 0 16px 40px rgba(26, 64, 120, 0.08);
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.panel-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.panel-header span {
+  color: #71809a;
+  font-size: 13px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 360px;
+  resize: vertical;
+  padding: 16px;
+  border: 1px solid #cbd7ea;
