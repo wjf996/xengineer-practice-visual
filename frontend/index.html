@@ -7,10 +7,19 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <main>
-    <h1>AI PR Review 助手</h1>
-    <p>输入 PR 描述或代码片段，生成风险提示、修改建议和测试建议。</p>
-  </main>
-  <script src="./app.js"></script>
-</body>
-</html>
+  <main class="app">
+    <section class="hero">
+      <p class="eyebrow">Pull Request Review Assistant</p>
+      <h1>AI PR Review 助手</h1>
+      <p class="subtitle">
+        输入 PR 描述或代码片段，快速生成风险提示、修改建议和测试建议。
+      </p>
+    </section>
+
+    <section class="workspace">
+      <div class="panel input-panel">
+        <div class="panel-header">
+          <h2>待分析内容</h2>
+          <span>PR 描述 / 代码片段</span>
+        </div>
+        <textarea placeholder
