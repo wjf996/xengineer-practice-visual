@@ -1,0 +1,1 @@
+console.log("AI PR Review Assistant loaded");
